@@ -1,4 +1,4 @@
-package models;
+package learner.venky.springpetclinic.models;
 
 import java.io.Serializable;
 

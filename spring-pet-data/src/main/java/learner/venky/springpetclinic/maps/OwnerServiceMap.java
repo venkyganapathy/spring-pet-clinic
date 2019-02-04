@@ -1,7 +1,7 @@
-package maps;
+package learner.venky.springpetclinic.maps;
 
-import models.Owner;
-import services.OwnerService;
+import learner.venky.springpetclinic.models.Owner;
+import learner.venky.springpetclinic.services.OwnerService;
 
 import java.util.Set;
 

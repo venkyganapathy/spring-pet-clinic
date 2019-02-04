@@ -1,7 +1,7 @@
-package maps;
+package learner.venky.springpetclinic.maps;
 
-import models.Pet;
-import services.CrudService;
+import learner.venky.springpetclinic.models.Pet;
+import learner.venky.springpetclinic.services.CrudService;
 
 import java.util.Set;
 

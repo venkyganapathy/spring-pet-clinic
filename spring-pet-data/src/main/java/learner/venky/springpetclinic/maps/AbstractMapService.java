@@ -1,4 +1,4 @@
-package maps;
+package learner.venky.springpetclinic.maps;
 
 import java.util.HashMap;
 import java.util.HashSet;

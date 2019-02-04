@@ -1,4 +1,4 @@
-package models;
+package learner.venky.springpetclinic.models;
 
 public class PetType extends BaseEntity{
 
