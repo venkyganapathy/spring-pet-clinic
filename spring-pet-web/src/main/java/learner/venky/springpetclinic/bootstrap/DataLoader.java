@@ -10,6 +10,7 @@ import learner.venky.springpetclinic.models.Vet;
 import learner.venky.springpetclinic.services.OwnerService;
 import learner.venky.springpetclinic.services.PetService;
 import learner.venky.springpetclinic.services.VetService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -22,6 +23,7 @@ public class DataLoader implements CommandLineRunner {
     private PetService petService;
     private VetService vetService;
 
+    @Autowired
     public DataLoader(OwnerService ownerService, PetService petService, VetService vetService) {
         this.ownerService = ownerService;
         this.petService = petService;
