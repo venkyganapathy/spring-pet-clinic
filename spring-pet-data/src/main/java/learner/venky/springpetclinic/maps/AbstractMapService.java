@@ -16,7 +16,7 @@ public abstract class AbstractMapService<T extends BaseEntity, IDType extends Lo
         return map.get(id);
     }
 
-    T save(IDType id, T object){
+    T save(T object){
         if (object != null){
             if (object.getId() == null || object.getId() == 0 ){
                 object.setId(getNextId());
